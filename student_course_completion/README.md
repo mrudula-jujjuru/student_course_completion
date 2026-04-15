@@ -45,11 +45,11 @@ Generated synthetic dataset simulating a real e-learning platform.
 
 | File | Description |
 |---|---|
-| 01_schema.sql | Database and table creation |
-| 02_load_data.sql | CSV data loading instructions |
-| 03_analysis_queries.sql | 10 analytical queries with insights |
-| 04_views.sql | 5 reusable views |
-| 05_stored_procedures.sql | 2 callable procedures |
+| schema.sql | Database and table creation |
+| load_data.sql | CSV data loading instructions |
+| analysis_queries.sql | 10 analytical queries with insights |
+| views.sql | 5 reusable views |
+| stored_procedures.sql | 2 callable procedures |
 
 ---
 
@@ -80,8 +80,8 @@ Built in Power BI connecting directly to MySQL.
 ## How to Run
 
 1. Install MySQL 8.0 and MySQL Workbench
-2. Run `sql/01_schema.sql` to create the database
-3. Load CSVs using `sql/02_load_data.sql`
-4. Run queries from `sql/03_analysis_queries.sql`
-5. Create views using `sql/04_views.sql`
-6. Create procedures using `sql/05_stored_procedures.sql`
+2. Run `sql/schema.sql` to create the database
+3. Load CSVs using `sql/load_data.sql`
+4. Run queries from `sql/analysis_queries.sql`
+5. Create views using `sql/views.sql`
+6. Create procedures using `sql/stored_procedures.sql`

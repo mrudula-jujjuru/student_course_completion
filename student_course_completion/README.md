@@ -73,7 +73,7 @@ of completion based on their score.
 ## Dashboard
 Built in Power BI connecting directly to MySQL.
 
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/Dashboard.png)
 
 ---
 
